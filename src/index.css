@@ -11,3 +11,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  padding-left: 300px;
+  padding-top: 50px;
+}
+.news-feed{
+  padding:10px;
+  margin: 5px;
+  box-shadow:0 3px 10px rgb(0 0 0 / 0.2) ;
+  max-width: 300px;
+  background-color: red;
+  background-image:
+    linear-gradient(
+      to right, 
+      #fffdc2,
+      #fffdc2 15%,
+      #d7f0a2 15%,
+      #d7f0a2 85%,
+      #fffdc2 85%
+    )
+   
+
+    }
+.currency-converter{
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  color: aliceblue;
+  box-shadow:0 3px 10px rgb(0 0 0 / 0.2) ;
+
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);}
+.exchange-rate{
+  margin-top:10px ;
+  box-shadow:0 3px 10px rgb(0 0 0 / 0.2) ;
+  
+  background-color: #ffa69e;
+  background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+  color: aliceblue;
+
+}
+
+.input-box{
+  background-color: aquamarine;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2) ;
+  
+
+}
+
+button{
+
+  border: none;
+  float: right;
+  margin: 2px;
+}
+
+button:hover{
+  background-color:coral;
+
+}
